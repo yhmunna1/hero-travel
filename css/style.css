@@ -13,7 +13,8 @@
     color: #FFF;
     font-size: 1rem;
     background: #FF5400;
-    padding: 10px 15px;
+    padding: 0px 50px;
+    margin: 7px 0px;
     color: #FFF;
     cursor: pointer;
     border: 0;
@@ -69,18 +70,57 @@ nav li a {
 .banner {
     background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
     padding: 80px 0px;
+    background-repeat: no-repeat;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 23acd3d9ed9e5b2b250c404d28736b58065c940e
 .banner-content {
     max-width: 800px;
     text-align: center;
     margin: 0 auto;
 }
 
-.banner-title {
+.banner-content h1 {
     font-size: 4rem;
     font-weight: 700;
     color: white;
+}
+.banner-content p {
+    color: white;
+}
+
+/* Hero-Form */
+
+.submit-form{
+    display: flex;
+    justify-content: center;
+    background-color: #e2e2e286;
+    border-radius: 5px;
+}
+.submit-form input{
+    height: 52px;
+    width: 174px;
+    border: 0px;
+    border-radius: 5px;
+    margin: 8px 10px;
+    padding: 0px 10px;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.select-option{
+    height: 54px;
+    width: 174px;
+    border: 0px;
+    border-radius: 5px;
+    margin: 8px 10px;
+    padding: 0px 10px;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 
